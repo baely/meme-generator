@@ -47,3 +47,5 @@ draw.text((bottom_text_x + 1, bottom_text_y + 1), bottom_text, (0, 0, 0), font)
 draw.text((bottom_text_x, bottom_text_y), bottom_text, (255, 255, 255), font)
 
 im.save("output.jpg")
+
+im.show()
